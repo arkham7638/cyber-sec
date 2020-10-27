@@ -9,7 +9,7 @@ In this project we are basically using the Python (3.6) to be exact the library 
 ->Numpy
 ->Seaborn
 ->Matplotlib
-->Sklearn
+->scipy
 ->sweetviz
 
 STEP1: First step is the most impportant step as we are reading the data - set and checking if there is any null value.
@@ -20,7 +20,7 @@ Seaborn = Seaborn is a Python data visualization library based on matplotlib. It
 
 Mtaplotlib = Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.
 
-Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines.
+SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
 
 Sweetviz is an open source Python library that generates beautiful, high-density visualizations to kickstart EDA (Exploratory Data Analysis) with a single line of code. Output is a fully self-contained HTML application.
 
@@ -89,5 +89,14 @@ We can obtain one of two results from the test:
 
 The hypothesis test is conducted using a statistical **$T-test$** which specifies the two Series `df_interest['Source Port']` and `df_interest['Destination Port']`. By specifying these two Series, we are automatically referring to a comparative test of the means of both Series:
  
- 
- 
+# What to achieve -
+
+So the EDA is done without any machine learning project and as u can see that machine learning and cyber security goes hand to hand so in the near future i wish to uprade the project using the machine learning model by using Naive Bayes 
+
+In statistics, Naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong independence assumptions between the features. They are among the simplest Bayesian network models
+
+And using amazon (AWS) EC2 or the herekou for the deployment as which will help in updating the project for the usage .
+
+
+**Thank You**
+**-ReadigThis-**
